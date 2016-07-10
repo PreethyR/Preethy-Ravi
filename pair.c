@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-int x,n,pair,k;
+int x,n,pairs,k;
 printf("enter the child");
 scanf("%d",&x);
 printf("pairs");
