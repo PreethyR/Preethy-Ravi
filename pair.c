@@ -2,17 +2,17 @@
 #include<stdio.h>
 int main()
 {
-int n,x,pair,i;
+int x,n,pair,k;
 printf("enter the child");
-scanf("%d",&n);
+scanf("%d",&x);
 printf("pairs");
 scanf("%d",&pair);
-for(i=0;i<2*n;i++)
+for(k=0;k<2*x;k++)
 {
-x=2*n-i;
-if(pair!=x)
+n=2*x-k;
+if(pair!=n)
 {
-printf("The pair is%d for days %d is %d\n",p,j++,p);
+printf("The pair is%d for days %d is %d\n",p,k++,p);
 }
 }
 return 0;
